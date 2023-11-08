@@ -19,7 +19,7 @@ public class App {
         while (true) {
             try {
                 UI.clearScreen();
-                UI.printMach(chessMatch, captured);
+                UI.printMatch(chessMatch, captured);
 
                 System.out.println();
 
