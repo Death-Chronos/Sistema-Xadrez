@@ -348,7 +348,7 @@ public class ChessMatch {
         placeNewPiece('f', 8, new Bishop(board, Color.BLACK));
         placeNewPiece('g', 8, new Knight(board, Color.BLACK));
         placeNewPiece('h', 8, new Rook(board, Color.BLACK));
-        placeNewPiece('a', 7, new Pawn(board, Color.BLACK, this));
+        placeNewPiece('a', 7, new Pawn(board, Color.BLACK, this)); //esses this é para passar a partida de xadrez(ChessMatch) para a peça(pois ela precisa ter acesso a informaçoes dela para alguns movimentos)
         placeNewPiece('b', 7, new Pawn(board, Color.BLACK, this));
         placeNewPiece('c', 7, new Pawn(board, Color.BLACK, this));
         placeNewPiece('d', 7, new Pawn(board, Color.BLACK, this));
